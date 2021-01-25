@@ -1,0 +1,118 @@
+.small-team {
+  .container {
+    padding-top: 80px;
+    padding-bottom: 115px;
+  }
+
+  .container-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 120px;
+  }
+
+  .employee-cards {
+    display: block;
+    position: relative;
+    width: 371px;
+    height: 441px;
+  }
+
+  .first-employee {
+    background-image: url('../img/small-team/1-small-team.jpg');
+  }
+
+  .second-employee {
+    background-image: url('../img/small-team/2-small-team.jpg');
+  }
+
+  .third-employee {
+    background-image: url('../img/small-team/3-small-team.jpg');
+  }
+
+  .fourth-employee {
+    margin-top: 15px;
+    background-image: url('../img/small-team/4-small-team.jpg');
+  }
+
+  .fifth-employee {
+    margin-top: 15px;
+    background-image: url('../img/small-team/5-small-team.jpg');
+  }
+
+  .sixth-employee {
+    margin-top: 15px;
+    background-image: url('../img/small-team/1-small-team.jpg');
+  }
+
+  .hover {
+    display: none;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 40px 50px 40px 40px;
+    background-color: #6DF6EB;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  .hover:before {
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 4px;
+    content: "";
+    border-left: 21px solid transparent;
+    border-bottom: 38px solid #6DF6EB;
+    border-right: 21px solid transparent;
+  }
+
+  .employee-cards:hover {
+    .hover {
+      display: block;
+    }
+  }
+
+  h3 {
+    color: #272727;
+    opacity: 0.9;
+  }
+
+  span {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.7;
+  }
+
+  p {
+    margin: 20px 0px 40px 0px;
+    font-family: "Raleway", "myriad-reg", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.8;
+    white-space: pre-line;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    text-align: left;
+  }
+
+  i {
+    color: #2f6f6a;
+  }
+
+  a:hover {
+    i {
+      color: #1c72b8;
+    }
+  }
+}

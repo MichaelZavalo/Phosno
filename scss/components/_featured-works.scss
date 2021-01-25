@@ -1,0 +1,23 @@
+.featured-works {
+  .container {
+    padding-top: 125px;
+    padding-bottom: 120px;
+  }
+
+  .container-bottom {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .inner-container-bottom,
+  .inner-container-top {
+    line-height: 1;
+
+  }
+
+  .inner-container-bottom {
+    margin-top: 10px;
+  }
+}

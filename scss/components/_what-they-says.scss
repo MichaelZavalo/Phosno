@@ -1,0 +1,168 @@
+.what-they-says {
+  background-color: #f9fbfb;
+
+  .container {
+    padding: 120px 0px 220px 0px;
+  }
+
+  .container-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+  }
+
+  .what-they-says__slider-first {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 27px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+    width: 390px;
+    height: 360px;
+    background-color: #ecedef;
+
+    .slick-list {
+      position: absolute;
+      top: -35px;
+      width: 320px;
+      height: 411px;
+      -webkit-box-shadow: 0px 0px 30px -6px rgba(0, 0, 0, 0.28);
+      -moz-box-shadow: 0px 0px 30px -6px rgba(0, 0, 0, 0.28);
+      box-shadow: 0px 0px 30px -6px rgba(0, 0, 0, 0.28);
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: space-between;
+      width: 50px;
+      bottom: -75px;
+    }
+
+    .slick-dots li {
+      width: 10px;
+      height: 10px;
+      margin: 0px;
+      padding: 0px;
+      background: #D0D0D0;
+      border-radius: 50%;
+    }
+
+    .slick-dots .slick-active {
+      background-color: #6DF6EB;
+    }
+
+    .slick-dots li button {
+      display: none;
+    }
+  }
+
+  .what-they-says__slider-second {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 27px 0px 0px 0px;
+    height: 360px;
+    background-color: #ecedef;
+
+    .slick-list {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 660px;
+      height: 360px;
+      background: none;
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    bottom: -110px;
+    right: 84px;
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.28);
+  }
+
+  .slick-next {
+    right: 0px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    display: inline-block;
+    content: url("../img/what-they-says/next-active.png");
+    align-items: center;
+    color: #000;
+    font-size: 0px;
+    opacity: 0.4;
+  }
+
+  .slick-prev:before {
+    transform: rotate(180deg);
+  }
+
+  .slick-prev:hover,
+  .slick-next:hover {
+    background-color: #6DF6EB;
+  }
+
+  .slick-prev:hover.slick-prev:before,
+  .slick-next:hover.slick-next:before {
+    opacity: 1;
+  }
+
+  .what-they-says__slider-second__slider-item {
+    padding: 0px 70px 0px 80px;
+    box-sizing: border-box;
+    background: #eaebed;
+  }
+
+  h3 {
+    margin: 0px;
+    color: #1b1b1c;
+    opacity: 0.9;
+  }
+
+  span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    color: #787878;
+  }
+
+  p {
+    margin: 30px 0px 0px 0px;
+    font-family: "Raleway", "myriad-reg", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  .stars {
+    width: 105px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .stars span {
+    padding: 0;
+    font-size: 18px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+  }
+
+  .stars>span:before {
+    content: '★';
+  }
+
+  .stars>span.active {
+    color: gold;
+    text-shadow: 1px 1px #c60;
+  }
+}

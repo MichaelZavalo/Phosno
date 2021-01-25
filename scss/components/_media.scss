@@ -1,0 +1,575 @@
+@media (max-width: 1024px) {
+    .featured-works {
+
+        .inner-container-top,
+        .inner-container-bottom {
+            margin: 0 auto;
+        }
+
+        .images {
+            width: 270px;
+            height: 259px;
+
+        }
+    }
+
+    .our-services {
+
+        .first-block,
+        .third-block,
+        .sixth-block {
+            width: 50%;
+        }
+    }
+
+    .small-team {
+        .container-bottom {
+            justify-content: space-around;
+        }
+
+        .third-employee {
+            margin-top: 15px;
+        }
+    }
+
+    .what-they-says {
+        .container-bottom {
+            justify-content: space-around;
+        }
+
+        .what-they-says__slider-first {
+            width: 350px;
+        }
+
+        .what-they-says__slider-second {
+            .slick-list {
+                width: 500px;
+            }
+        }
+    }
+
+    .partners {
+        .head {
+            width: 50%;
+        }
+    }
+
+    .contacts {
+        .form {
+            width: 50%;
+            padding: 30px 10px 20px 10px;
+        }
+
+        .info-and-map {
+            padding: 27px 13px 10px 13px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h4 {
+            font-size: 0.8em;
+        }
+
+        h3 {
+            font-size: 1em;
+        }
+    }
+
+    .header .container,
+    .about-us .container,
+    .featured-works .container,
+    .our-services .container,
+    .small-team .container,
+    .what-they-says .container,
+    .footer .container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .header .container-bottom,
+    .about-us .container-bottom,
+    .featured-works .container-bottom,
+    .our-services .container-bottom,
+    .small-team .container-bottom,
+    .what-they-says .container-bottom {
+        margin-top: 100px;
+    }
+
+    .header {
+        background: url("../img/header/header-back.png") #eff0f2 no-repeat bottom 10% right 10%;
+
+        .menu-nav {
+            flex-direction: column;
+            justify-content: space-between;
+            height: auto;
+            border-bottom-right-radius: 18px;
+
+            a {
+                font-size: 0.8em;
+            }
+
+            a:not(:first-of-type) {
+                margin-top: 5px;
+            }
+        }
+
+        .menu-btn {
+            height: 46px;
+        }
+
+        h1,
+        h2 {
+            font-size: 2em;
+        }
+
+        .contact-us {
+            font-size: 0.8em;
+            padding: 10px 30px;
+        }
+
+    }
+
+    .about-us {
+        .container-bottom {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-us__slider {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin: 35px 0px;
+            padding: 20px 20px 0px 20px;
+            width: 350px;
+            height: 320px;
+            background-color: #ecedef;
+        }
+
+        .slick-list {
+            width: 300px;
+            height: 384px;
+        }
+
+        .slick-dots {
+            bottom: -50px;
+        }
+
+        .column {
+            max-width: 90%;
+            margin-top: 50px;
+
+            p {
+                font-size: 0.7em;
+            }
+
+            p:first-of-type {
+                margin: 15px 0px 0px 0px;
+            }
+        }
+
+        .column__inner-top {
+            p:last-child {
+                margin: 20px 0px 0px 0px;
+            }
+        }
+    }
+
+
+    .featured-works {
+
+        .inner-container-top,
+        .inner-container-bottom {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .inner-container-bottom {
+            margin-top: 20px;
+        }
+
+        .images {
+            width: 170px;
+            height: 159px;
+        }
+    }
+
+    .our-services {
+        .container-bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .inner-top,
+        .inner-midlle,
+        .inner-bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .blocks {
+            width: 100%;
+            background-size: 100%;
+        }
+
+        .blocks:not(:first-of-type) {
+            margin-top: 15px;
+        }
+    }
+
+    .small-team {
+        .employee-cards:not(:first-of-type) {
+            margin-top: 15px;
+        }
+
+        .employee-cards {
+            height: 380px;
+        }
+
+        .hover {
+            top: 60%;
+        }
+    }
+
+    .what-they-says {
+        .container {
+            padding-bottom: 150px;
+        }
+
+        .container-bottom {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .what-they-says__slider-first {
+            width: 350px;
+        }
+
+        .what-they-says__slider-second {
+            margin: 100px 0px 0px 0px;
+
+            .slick-list {
+                width: 400px;
+            }
+        }
+    }
+
+    .partners {
+        .head {
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+
+    .contacts {
+        .container {
+            flex-direction: column;
+        }
+
+        .form,
+        .info-and-map {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 40px 20px;
+        }
+
+        .info-and-map {
+            justify-content: space-around;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        .phone-and-email,
+        .map {
+            width: 45%;
+        }
+
+        .map {
+            margin: 0px;
+        }
+    }
+}
+
+@media (max-width: 470px) {
+
+    body {
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 0.7em;
+        }
+
+        h3 {
+            font-size: 0.8em;
+        }
+    }
+
+    .header .container-bottom,
+    .about-us .container-bottom,
+    .featured-works .container-bottom,
+    .our-services .container-bottom,
+    .small-team .container-bottom,
+    .what-they-says .container-bottom {
+        margin-top: 50px;
+    }
+
+    .header {
+
+        background: url("../img/header/header-back.png") #eff0f2 no-repeat bottom 7% right 7%;
+
+        .container {
+            padding-top: 20px;
+        }
+
+        .container-bottom {
+            margin-top: 20px;
+        }
+
+        h1,
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    .featured-works {
+
+        .inner-container-top,
+        .inner-container-bottom {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .images {
+            width: 250px;
+            height: 239px;
+        }
+
+        .images:not(:first-of-type) {
+            margin-top: 15px;
+        }
+    }
+
+    .our-services {
+        .container-bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .inner-top,
+        .inner-midlle,
+        .inner-bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .btn-know-more {
+            font-size: 0.8em;
+        }
+
+        .btn-know-more:before {
+            top: 5.5px;
+        }
+
+        .blocks {
+            height: 300px;
+        }
+
+        .blocks,
+        .know-more {
+            padding: 50px 20px;
+        }
+
+        .inner-top p,
+        .inner-midlle p,
+        .inner-bottom p {
+            font-size: 14px;
+        }
+
+        .back {
+            left: 15px;
+            bottom: 40px;
+        }
+    }
+
+    .small-team {
+        p {
+            font-size: 0.8em;
+        }
+
+        .hover {
+            top: 69%;
+            padding: 20px 25px 20px 20px;
+        }
+    }
+
+    .what-they-says {
+        p {
+            font-size: 0.8em;
+        }
+
+        span {
+            font-size: 0.9em;
+        }
+    }
+
+    .partners {
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .bottom {
+            margin-top: 30px;
+            height: 200px;
+        }
+    }
+
+    .contacts {
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .btn-submit {
+            font-size: 0.8em;
+            padding: 10px 15px;
+            max-width: 150px;
+        }
+
+        .info-and-map {
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .phone-and-email,
+        .map {
+            width: 100%;
+        }
+
+        .map {
+            margin-top: 20px;
+        }
+    }
+
+    .footer {
+        h5 {
+            font-size: 0.8em;
+        }
+
+        p {
+            font-size: 0.7em;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .what-they-says {
+
+        .what-they-says__slider-second {
+            width: 300px;
+            height: 300px;
+
+            .slick-list {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        .what-they-says__slider-second__slider-item {
+            padding: 0px 5px;
+        }
+
+        .slick-prev,
+        .slick-next {
+            right: 70px;
+
+        }
+
+        .slick-next {
+            right: 0px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        background: #eff0f2;
+    }
+
+    .about-us {
+        .about-us__slider {
+            width: 300px;
+        }
+
+        .slick-list {
+            height: 360px;
+        }
+    }
+
+    .our-services {
+        .back {
+            left: 10px;
+            bottom: 10px;
+        }
+    }
+
+    .small-team {
+        .employee-cards {
+            background-position-x: center;
+            background-position-y: center;
+        }
+    }
+
+    .what-they-says {
+        .what-they-says__slider-first {
+            width: 300px;
+            height: 350px;
+
+            .slick-list {
+                width: 300px;
+                height: 386px;
+            }
+
+            .slick-dots {
+                bottom: -40px;
+            }
+        }
+
+        .what-they-says__slider-second {
+            margin: 70px 0px 0px 0px;
+        }
+    }
+
+    .partners {
+        .head {
+            flex-wrap: wrap;
+        }
+
+        .bottom {
+            margin-top: 70px;
+        }
+    }
+}

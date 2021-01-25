@@ -1,0 +1,46 @@
+@font-face {
+  font-family: myriad-reg;
+  src: url('fonts/myriad-reg.otf');
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  background-color: white;
+  overflow-x: hidden;
+
+  h2 {
+    margin: 0;
+    font-size: 38px;
+    font-family: 'Montserrat', 'myriad-reg', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+
+  h4 {
+    margin: 5px 0 0 0;
+    font-size: 17px;
+    font-family: 'Merriweather', 'myriad-reg', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Merriweather', 'myriad-reg', sans-serif;
+    font-weight: 700;
+    opacity: 0.7;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
